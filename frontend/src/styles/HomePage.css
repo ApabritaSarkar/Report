@@ -1,0 +1,47 @@
+.home-page {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .home-page h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  
+  .home-page p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-button {
+    padding: 15px 25px;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .officer-login {
+    background-color: #007bff;
+  }
+  
+  .officer-login:hover {
+    background-color: #0056b3;
+  }
+  
+  .report-missing {
+    background-color: #28a745;
+  }
+  
+  .report-missing:hover {
+    background-color: #1c7c31;
+  }
+  

@@ -1,0 +1,69 @@
+.chat-system {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .chat-messages {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    border-radius: 8px;
+  }
+  
+  .chat-message {
+    margin-bottom: 10px;
+  }
+  
+  .from-complainant {
+    text-align: left;
+    background-color: #e9f7ef;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    margin-left: 0;
+  }
+  
+  .from-officer {
+    text-align: right;
+    background-color: #d6eaf8;
+    padding: 10px;
+    border-radius: 8px;
+    max-width: 80%;
+    margin-left: auto;
+  }
+  
+  .chat-input {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .chat-input button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .chat-input button:hover {
+    background: #0056b3;
+  }
+  

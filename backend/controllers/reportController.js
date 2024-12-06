@@ -1,3 +1,5 @@
+
+
 const Case = require('../models/Case');
 const sendEmail = require('../utils/emailService');
 const validator = require('validator');
@@ -66,9 +68,3 @@ Support Team`;
     res.status(500).json({ error: "Error submitting the case." });
   }
 };
-
-
-
-
-
-
