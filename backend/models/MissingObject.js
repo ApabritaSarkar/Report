@@ -8,6 +8,11 @@ const missingObjectSchema = new mongoose.Schema({
   contact: { type: String, required: true },
   email: { type: String, required: true },
   image: { type: String,required: true },
+  status: {
+    type: String,
+    enum: ["submitted", "in_progress", "resolved", "match_found"],
+    default: "submitted",
+  },
   createdAt: { type: Date, default: Date.now },
 });
 

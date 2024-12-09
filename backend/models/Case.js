@@ -15,6 +15,7 @@ const caseSchema = new mongoose.Schema({
     enum: ["submitted", "in_progress", "resolved", "match_found"],
     default: "submitted",
   },
+  // faceEmbedding: { type: Array, required: false }, 
   createdAt: { type: Date, default: Date.now },
 });
 

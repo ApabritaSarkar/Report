@@ -70,6 +70,10 @@ const ObjectDetailsPage = () => {
       <p>
         <strong>Email:</strong> {objectDetails.email}
       </p> */}
+
+      <p>
+        <strong>Status:</strong> {objectDetails.status}
+      </p>
       <p>
         <strong>Date Reported:</strong>{" "}
         {new Date(objectDetails.createdAt).toLocaleString()}

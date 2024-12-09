@@ -98,8 +98,8 @@ const ReportMissingObject = () => {
     
       <form onSubmit={handleSubmit} className="missing-report-form">
         <div>
-        <h2>Report Missing Object</h2>
-          <label htmlFor="objectName">Object Name:</label>
+        <h2>Report Missing Item</h2>
+          <label htmlFor="objectName">Name of Missing Item:</label>
           <input
             type="text"
             id="name"
